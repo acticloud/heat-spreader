@@ -1,0 +1,17 @@
+clouds:
+  athens:
+    auth:
+      username: admin
+      password: changeme
+      project_name: admin
+      auth_url: http://localhost:5000/v3
+      user_domain_name: default
+      project_domain_name: default
+  manchester:
+    auth:
+      username: admin
+      password: changeme
+      project_name: admin
+      auth_url: http://localhost:5001/v3
+      user_domain_name: default
+      project_domain_name: default

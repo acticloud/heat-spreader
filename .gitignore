@@ -1,0 +1,15 @@
+__pycache__
+*.egg-info
+pip-wheel-metadata/
+.eggs
+
+build/
+dist/
+
+.tox
+
+.venv
+
+tests/e2e/log/*.log
+
+src/heatspreader/version.py

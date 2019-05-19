@@ -1,0 +1,9 @@
+backend:
+  type: sqlite
+  database: "/tmp/actimanager_multicloud_db"
+clouds:
+  - athens
+  - manchester
+server:
+  address: 127.0.0.1
+  port: 8080

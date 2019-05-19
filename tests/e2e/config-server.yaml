@@ -1,0 +1,9 @@
+backend:
+  type: sqlite
+  database: ":memory:"
+clouds:
+  - athens
+  - manchester
+server:
+  address: 127.0.0.1
+  port: 0
