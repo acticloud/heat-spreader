@@ -56,6 +56,14 @@ heat-spreader weight set [stack name] [cloud 1 name] --weight 0.5
 heat-spreader weight set [stack name] [cloud 2 name] --weight 0.5
 ```
 
+## Environment variables
+
+* HEAT_SPREADER_CONFIG_FILE - Configuration file path
+* HEAT_SPREADER_LOG_JSON - Use JSON log output format
+* HEAT_SPREADER_LOG_LEVEL - Log level (logging module level names)
+* HEAT_SPREADER_LOG_VERBOSE - Include third-party library logs
+* HEAT_SPREADER_LOG_FILE - Write logs to file instead of stdout
+
 ## Multicloud scaling
 
 ### Weights
