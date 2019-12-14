@@ -65,6 +65,8 @@ def stack_action(fn):
             )
 
             return value
+        except heat_exc.HTTPBadRequest as exc:
+            _log.error("stack_action_bad_request", error=str(exc))
         # TODO: Use OpenStack SDK if/when it supports PATCH
         # except openstack.exceptions.ResourceNotFound:
         except heat_exc.HTTPNotFound:
