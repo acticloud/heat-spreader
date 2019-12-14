@@ -16,7 +16,7 @@ class StackTable(PrettyTable):
 
         weights = []
         for cloud_name, weight in multicloud_stack.weights.items():
-            weight = weight * 100
+            weight = round(weight * 100, 1)
             weights.append(f"{cloud_name} ({weight}%)")
         self.add_row(["Weights", "\n".join(weights)])
 
